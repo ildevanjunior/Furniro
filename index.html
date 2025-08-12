@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Furniro</title>
+    <script src="js/main.js" defer></script>
   </head>
   <body>
+    <div class="overlay" id="overlay"></div>
     <section class="banner-header">
       <img src="assets/img-banner.jpg" alt="imagem banner - 01" />
 
@@ -17,7 +19,12 @@
             <span>Furniro</span>
           </a>
         </section>
-        <nav>
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav id="mainNav">
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">Sobre</a></li>

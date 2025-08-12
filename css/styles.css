@@ -73,12 +73,21 @@ header {
 
 nav ul {
   display: flex;
-  gap: 75px;
+  gap: 30px;
 }
 
 nav a {
   color: #000;
   font-weight: 600;
+  padding: 10px 15px;
+  transition: .3s ease-in
+}
+nav a:hover {
+  background-color: #b88e2f;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #fff;
+
 }
 
 .card-banner {
@@ -123,6 +132,7 @@ nav a {
   font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
+  cursor: pointer;
 }
 
 .browser-range {
@@ -181,7 +191,7 @@ nav a {
 
 .Our-Products h2 {
   text-align: center;
-  font-si40px40px;
+  font-size:40px;
   margin-bottom: 40px;
 }
 
@@ -193,6 +203,7 @@ nav a {
   flex-wrap: wrap;
   gap: 32px;
 }
+
 
 .card-products {
   width: 400px;
@@ -213,20 +224,19 @@ nav a {
   padding: 0px 20px;
 }
 .description-product h3 {
-  font-si30px30px;
   font-weight: 600;
   margin-top: 10px;
 }
 
 .description-product p {
-  font-siz4px14px;
+  font-size:14px;
   margin-top: 10px;
   margin-bottom: 10px;
   color: #7a7a7a;
 }
 
 .destaque {
-  font-si20px20px;
+  font-size:20px;
   font-weight: 700;
   color: #000;
 }
@@ -239,5 +249,5 @@ nav a {
 
 .antigo {
   text-decoration: line-through;
-  color: #B0B0B0;fon-large;
+  color: #B0B0B0;
 }
